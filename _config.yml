@@ -1,8 +1,8 @@
 # Basic
 title: yueLife
-subtitle: 分享一些简单的东西
+# subtitle: A blog-orientation theme for Jekyll
 welcome_message: 欢迎来到我的博客 :)
-# description: Vno Jekyll is a port of my Ghost theme vno.
+description: 分享一些简单的东西
 creator: <a href="https://github.com/yueLife">@yueLife</a>
 
 url: "http://yuelife.antreverie.com"
