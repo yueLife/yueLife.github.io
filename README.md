@@ -1,5 +1,5 @@
 # yueLife
-[yueLife](https://yuelife.github.io) is a static blog site. I developed based on [Jekyll](http://jekyllrb.com) and using [Vno Jekyll](https://github.com/onevcat/vno-jekyll) as its theme.
+[yueLife](https://yuelife.github.io) is a static blog site. I developed based on [Jekyll](http://jekyllrb.com) and using [Vno Jekyll](https://github.com/onevcat/vno-jekyll) as it's theme.
 
 ## Vno - Jekyll
 

@@ -1,8 +1,8 @@
 # Basic
 title: yueLife
-# subtitle: A blog-orientation theme for Jekyll
+subtitle: 分享一些简单的东西
 welcome_message: 欢迎来到我的博客 :)
-description: 分享一些简单的东西
+description: 就像老Albert所说的，“如果你不能向一个六岁的孩子解释清楚，那么其实你自己根本就没弄懂。”
 creator: <a href="https://github.com/yueLife">@yueLife</a>
 
 url: "http://yuelife.antreverie.com"
@@ -13,7 +13,7 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: slate
+cover_color: red
 
 # The blog button should not be removed.
 blog_button:
@@ -34,7 +34,7 @@ paginate_path: "page/:num/"
 comment:
     # disqus:
     # duoshuo: Duoshuo has stopped serving
-    livere: MTAyMC8yOTE5Ny81NzY0
+    # livere: MTAyMC8yOTE5Ny81NzY0
 
 # Social
 social:

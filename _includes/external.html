@@ -12,3 +12,14 @@
     ga('send', 'pageview');
 </script>
 {% endif %}
+
+{% if page.layout == 'tag' %}
+<script type="text/javascript">
+    $(location.hash).fadeIn();
+    $(".tag").click(function() {
+        $(location.hash).css("display", "none");
+        var anchor = $(this).attr("href");
+        $(anchor).fadeIn();
+    });
+</script>
+{% endif %}

@@ -1,0 +1,78 @@
+/**
+ * Created by PhpStorm.
+ * User: yueLife
+ * Date: 2017/6/28
+ * Time: 14:23
+ */
+
+/* Global css */
+.fl { float: left; }
+.fr { float: right; }
+.clear { clear: both; }
+.display-hide { display: none; }
+.display-none { display: none !important; }
+.mt-20 { margin-top: 20px; }
+.mr-20 { margin-right: 20px; }
+.mb-20 { margin-bottom: 20px; }
+.ml-20 { margin-left: 20px; }
+
+/* Tags css */
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.tag {
+  background: #eee;
+  border-radius: 3px 0 0 3px;
+  color: #999;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 5px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s !important;
+  font-size: 12px;
+}
+
+.tag::before {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: '';
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 7px;
+}
+
+.tag::after {
+  background: #fff;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #eee;
+  border-top: 10px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tag:hover {
+  background-color: #A7292F;
+  color: white !important;
+}
+
+.tag:hover::after { border-left-color: #A7292F; }
+
+/* Other css */
+.continue-read-btn { -webkit-transition: color 0.2s; }
+
+.continue-read-btn:hover {
+  color: white !important;
+  background-color: #A7292F;
+}
