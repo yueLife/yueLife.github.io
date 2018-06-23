@@ -5,7 +5,7 @@ date: 2017-05-17
 tag: Composer
 ---
 
-1.[Composer Update silently returns "Killed"](https://github.com/composer/composer/issues/1815){:target="_blank"}
+#### 1.[Composer Update silently returns "Killed"](https://github.com/composer/composer/issues/1815){:target="_blank"}
 
 以前在学习的时候，买的最低配置的云服务器内存只有可怜的0.5G。以至于更新Composer的时候，提示被killed。
 ```bash
