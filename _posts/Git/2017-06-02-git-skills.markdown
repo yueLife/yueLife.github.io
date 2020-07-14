@@ -2,7 +2,7 @@
 layout: post
 title: Git skills
 date: 2017-06-02
-tag: git 
+tag: Git 
 ---
 
 1.  **修改.gitignore后生效**  

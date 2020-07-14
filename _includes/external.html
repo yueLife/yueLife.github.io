@@ -15,11 +15,12 @@
 
 {% if page.layout == 'tag' %}
 <script type="text/javascript">
-    $(location.hash).fadeIn();
+    var anchor = decodeURIComponent(location.hash.substr(1));
+    $('div[data-anchor=' + anchor + ']').fadeIn();
     $(".tag").click(function() {
-        $(location.hash).css("display", "none");
-        var anchor = $(this).attr("href");
-        $(anchor).fadeIn();
+        $('.tags-anchor').css('display', 'none');
+        anchor = $(this).attr("data-anchor");
+        $('div[data-anchor=' + anchor + ']').fadeIn();
     });
 </script>
 {% endif %}
