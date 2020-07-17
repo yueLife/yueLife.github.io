@@ -1,0 +1,21 @@
+#jitang {
+    height: 15rem;
+    line-height: 1.5;
+    font-size: 2rem;
+    text-align: center!important;
+}
+
+#jitang-div {
+    height: 6rem;
+    text-align: center;
+}
+
+#jitang-div button {
+    padding: 8px 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    background: #000000;
+    cursor: pointer;
+}
