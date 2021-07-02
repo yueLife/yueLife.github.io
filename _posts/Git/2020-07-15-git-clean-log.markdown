@@ -20,7 +20,7 @@ $ git branch
 * master
 ```
 
-一般删除.git文件夹，然后强制提交远程仓库。
+一般删除.git 文件夹，然后强制提交远程仓库。
 ```bash
 $ rm -rf .git # 删除.git
 
