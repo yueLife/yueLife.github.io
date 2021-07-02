@@ -8,7 +8,7 @@ tag: Mysql
 关键词 `DISTINCT` 用于返回唯一不同的值。一般只用它来返回不重复记录的条数，而不是用它来返回不重记录的所有值。
 
 首先，新建一张users表，并插入几条记录。
-```bash
+```mysql
 CREATE TABLE `users` (
   `id` int(10) NOT NULL AUTO_INCREMENT comment '主键ID',
   `user_name` varchar(100) DEFAULT NULL COMMENT '用户名',
@@ -17,7 +17,7 @@ CREATE TABLE `users` (
 ```
 
 查询users 表中所有记录：
-```bash
+```mysql
 mysql> SELECT user_name FROM users;
 +-----------+
 | user_name |
